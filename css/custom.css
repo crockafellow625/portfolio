@@ -4,9 +4,20 @@
 @media only screen and (max-width: 767px) and (min-width: 320px) {
     .menu {
         top:20px;
-        transition: .3s;
+        transition: .7s;
+        padding-top:30px;
     }
 }
 section:nth-of-type(odd) {
     background: #fff !important;
+}
+
+@media (max-width: 767px) {
+.simple-bar .menu li a {
+    padding-bottom: 19px !important;
+}
+}
+
+.top-bar {
+    transition: all .3s ease-in-out !important; 
 }
