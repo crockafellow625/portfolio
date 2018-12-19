@@ -7,3 +7,6 @@
         transition: .3s;
     }
 }
+section:nth-of-type(odd) {
+    background: #fff !important;
+}
