@@ -1,0 +1,9 @@
+.overlay:before {
+    background-color:transparent !important;
+}
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+    .menu {
+        top:20px;
+        transition: .3s;
+    }
+}
