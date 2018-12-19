@@ -21,3 +21,18 @@ section:nth-of-type(odd) {
 .top-bar {
     transition: all .3s ease-in-out !important; 
 }
+
+.simple-bar .nav-menu {
+    padding-top: 54px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    padding-bottom: 138px;
+    margin-top:59px;
+}
+.nav-menu a {
+        color: #428bca;
+        margin-top: 24px;
+        padding-top: 4px;
+        text-decoration: none;
+}
